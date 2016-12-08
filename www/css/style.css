@@ -1,0 +1,58 @@
+/* Empty. Add your own CSS if you like */
+/* Profil */
+.divBen{
+margin-top:30px;
+text-align:center;
+width:100%;}
+
+.imgBen {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.nomPrenomBen{
+	height:100px;
+}
+
+.nomPrenomBen, .imgBen{
+display:inline-block;
+background-color:green;}
+
+/* personal*/
+.avatar {
+	margin-left:25%;
+}
+.item h2{
+	margin-left: 32%;
+    font-size: large;
+    color: #792051;
+    font-weight: 300;
+}
+
+.intitulé{
+	font-weight:lighter;
+}
+
+.test-body{
+	size:100;
+}
+
+.localisation{
+	margin-left:35%;
+}
+
+.lieu{
+	margin-left:35%;
+}
+
+.profilAvatar{
+	margin-left:25%;
+}
+
+.divBen input{
+	margin-left:10%;
+	width:120px;
+}
