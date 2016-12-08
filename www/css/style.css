@@ -22,9 +22,7 @@ display:inline-block;
 background-color:green;}
 
 /* personal*/
-.avatar {
-	margin-left:25%;
-}
+
 .item h2{
 	margin-left: 32%;
     font-size: large;
@@ -55,4 +53,8 @@ background-color:green;}
 .divBen input{
 	margin-left:10%;
 	width:120px;
+}
+
+.divImageProfil{
+	width:40%;
 }

@@ -1,0 +1,39 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+	<!-- Dashboard Tab -->
+  <ion-tab title="Profil" icon-off="ion-android-person" icon-on="ion-android-person" href="#/tab/profil">
+    <ion-nav-view name="profil"></ion-nav-view>
+  </ion-tab>
+  
+  <!-- Dashboard Tab -->
+  <ion-tab title="Expériences" icon-off="ion-briefcase" icon-on="ion-briefcase" href="#/tab/experience">
+    <ion-nav-view name="experience"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Chats Tab -->
+  <ion-tab title="Formation" icon-off="ion-university" icon-on="ion-university" href="#/tab/formation">
+    <ion-nav-view name="formation"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="Compétences" icon-off="ion-clipboard" icon-on="ion-clipboard" href="#/tab/competence">
+    <ion-nav-view name="competence"></ion-nav-view>
+  </ion-tab>
+  
+  <!-- 
+  <ion-tab title="Langue" icon-off="ion-ios-world-outline" icon-on="ion-ios-world-outline" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>Dashboard Tab -->
+
+  <!-- Account Tab -->
+  <ion-tab title="Intérêts" icon-off="ion-android-bicycle" icon-on="ion-android-bicycle" href="#/tab/interet">
+    <ion-nav-view name="interet"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
