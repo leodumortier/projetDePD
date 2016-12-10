@@ -1,10 +1,54 @@
 
-<ion-view class="title" view-title="Paramètres" >
+<ion-view class="title" id="parametre" view-title="Paramètres" >
 <ion-content class="has-header" >
 
-    <p>changer couleur</p>
-	<p>changer profil</p>
-	<p>changer texte du cv</p>
+<a href="#/profil"><button  class="button button-icon ion-chevron-left">
+			</button></a>
+
+<ul class="list">
+
+  <li class="item item-toggle">
+     Activer Modification CV
+     <label class="toggle toggle-balanced">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+
+  <li class="list">
+	
+	<label class="item item-input item-select">
+	
+		<div class="input-label">
+		  Changer couleur CV
+		</div>
+		
+		<select>
+			<option selected>Aucune</option>
+			<option>Bleu</option>
+			<option>Rouge</option>
+			<option>Vert</option>
+		</select>
+	</label>
+	
+	<label class="item item-input item-select">
+	
+		<div class="input-label">
+		  Changer police CV
+		</div>
+		
+		<select>
+			<option selected>Arial</option>
+			<option>Times New Roman</option>
+		</select>
+	</label>
+
+  </li>
+
+
+</ul>
 
 </ion-content>
     

@@ -57,4 +57,21 @@ background-color:green;}
 
 .divImageProfil{
 	width:40%;
+	margin-top: 25px;
+	margin-bottom:25px;
+	margin-right:30%;
+	margin-left:30%;
+	border-radius: 50%;
+	border:2px solid black;
 }
+
+.divTexteProfil{
+width:100%;
+text-align:center;}
+
+.nom{
+text-transform:Uppercase;
+}
+
+#nomPrenom{
+font-weight:bold;}
